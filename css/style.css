@@ -23,3 +23,7 @@
 #kha-sticky-admin-menu h2 {
     margin: 0 0 15px;
 }
+
+#kha-sticky-admin-menu a {
+    text-decoration: none;
+}
