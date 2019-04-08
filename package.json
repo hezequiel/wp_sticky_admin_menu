@@ -1,6 +1,6 @@
 {
   "name": "sticky-admin-menu",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Adds a sticky butto to open up an admin-only menu",
   "repository": "https://github.com/hezequiel/wp_sticky_admin_menu.git",
   "license": "GPL2",

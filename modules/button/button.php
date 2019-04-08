@@ -1,0 +1,1 @@
+<a class="kha-sam-button">Admin Menu</a>

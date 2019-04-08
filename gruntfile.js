@@ -12,7 +12,7 @@
  * - run "grunt"
  * - develop! :)
  *
- * @since 0.1.0
+ * @since 0.5.0
  */
 
 module.exports = function(grunt) {
@@ -34,6 +34,7 @@ module.exports = function(grunt) {
             target: {
               files: {
                 'resources/css/sticky-admin-menu.min.css': 'css/style.css',
+                'resources/css/sticky-admin-menu-lightbox.min.css': 'css/lightbox.css',
               }
             }
           },
@@ -73,7 +74,8 @@ module.exports = function(grunt) {
     		},
 			scripts: {
 				files: {
-					'resources/js/sticky-admin-menu.js': 'js/scripts.js',
+                    'resources/js/sticky-admin-menu.js': 'js/scripts.js',
+                    'resources/js/sticky-admin-menu-lightbox.js': 'js/lightbox.js',
 				  }
 		    }
 		},
