@@ -13,10 +13,11 @@ function kha_sam_add_button_to_screen() {
         return;
     }
 
-    include KHA_STICKY_ADMIN_MENU_MODULES_PATH . '/button/button.php';
+    include KHA_STICKY_ADMIN_MENU_MODULES_PATH . '/button.php';
 
     $lightbox_title = get_option( 'kha_sticky_admin_menu_lightbox_title', 'Admin Menu' );
     $lightbox_text = wpautop( get_option( 'kha_sticky_admin_menu_lightbox_text', '' ) );
+    $lightbox_text = stripcslashes( $lightbox_text );
 
     $lightbox_text = "<h2>{$lightbox_title}</h2>\n{$lightbox_text}";
 

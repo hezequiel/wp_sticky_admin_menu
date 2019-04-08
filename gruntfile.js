@@ -32,9 +32,10 @@ module.exports = function(grunt) {
               roundingPrecision: -1
             },
             target: {
-              files: {
+              files: {                
                 'resources/css/sticky-admin-menu.min.css': 'css/style.css',
                 'resources/css/sticky-admin-menu-lightbox.min.css': 'css/lightbox.css',
+                'resources/css/sticky-admin-menu-admin.min.css': 'css/admin.css',
               }
             }
           },

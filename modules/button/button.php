@@ -1,1 +1,0 @@
-<a class="kha-sam-button kha-lightbox-trigger" data-lightbox-id="kha-sticky-admin-menu">Admin Menu</a>

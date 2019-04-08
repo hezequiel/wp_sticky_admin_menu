@@ -22,6 +22,7 @@ register_deactivation_hook( __FILE__, 'kha_sam_deactivate_plugin' );
 
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/setup.php';
 
+require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/admin.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/enqueue.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/general.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/setup.php';
