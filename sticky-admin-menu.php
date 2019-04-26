@@ -25,7 +25,6 @@ require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/setup.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/admin.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/enqueue.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/general.php';
-require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/setup.php';
 
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/lightbox.php';
 require_once KHA_STICKY_ADMIN_MENU_PATH . '/functions/kha-utilities.php';
